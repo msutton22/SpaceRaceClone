@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f6fcb1b-365f-4bb0-be55-91b21c6e24a0" name="Default Changelist" comment="" />
+    <list default="true" id="2f6fcb1b-365f-4bb0-be55-91b21c6e24a0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceRaceClone/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceRaceClone/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/C# Scripts/ship2Behavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/C# Scripts/ship2Behavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/C# Scripts/shipBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/C# Scripts/shipBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,69 +25,85 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="49" />
+          <entry key="cs" value="445" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="49" />
+          <entry key="C#" value="445" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="2" />
+          <entry key="cs" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="2" />
+          <entry key="C#" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/C# Scripts/ship2Behavior.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+            <state relative-caret-position="350">
+              <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
               <folding>
-                <marker date="1567708566230" expanded="true" signature="6:135" ph="..." />
-                <marker date="1567708566230" expanded="true" signature="179:2891" ph="{...}" />
-                <marker date="1567708566230" expanded="true" signature="247:502" ph="/* public GameObject scoreInGame; //adding game object for score text ... */" />
-                <marker date="1567708566230" expanded="true" signature="653:768" ph="{...}" />
-                <marker date="1567708566230" expanded="true" signature="826:2887" ph="{...}" />
-                <marker date="1567708566230" expanded="true" signature="1049:1297" ph="{...}" />
-                <marker date="1567708566230" expanded="true" signature="1056:1291" ph="/* GameObject bullet = (GameObject)Instantiate (projectilePrefabs, transform.position, Quaternion.identity); //cr ... */" />
-                <marker date="1567708566230" expanded="true" signature="1301:2123" ph="/* for (int i = 0; i &lt; Projectiles.Count; i++) { //loop to see how many projectiles are in the scene ... */" />
-                <marker date="1567708566230" expanded="true" signature="2157:2319" ph="{...}" />
-                <marker date="1567708566230" expanded="true" signature="2354:2526" ph="{...}" />
-                <marker date="1567708566230" expanded="true" signature="2559:2702" ph="{...}" />
-                <marker date="1567708566230" expanded="true" signature="2735:2881" ph="{...}" />
+                <marker date="1567711536770" expanded="true" signature="6:135" ph="..." />
+                <marker date="1567711536770" expanded="true" signature="179:2903" ph="{...}" />
+                <marker date="1567711536770" expanded="true" signature="247:502" ph="/* public GameObject scoreInGame; //adding game object for score text ... */" />
+                <marker date="1567711536770" expanded="true" signature="653:768" ph="{...}" />
+                <marker date="1567711536770" expanded="true" signature="826:2899" ph="{...}" />
+                <marker date="1567711536770" expanded="true" signature="1049:1297" ph="{...}" />
+                <marker date="1567711536770" expanded="true" signature="1056:1291" ph="/* GameObject bullet = (GameObject)Instantiate (projectilePrefabs, transform.position, Quaternion.identity); //cr ... */" />
+                <marker date="1567711536770" expanded="true" signature="1301:2325" ph="/* for (int i = 0; i &lt; Projectiles.Count; i++) { //loop to see how many projectiles are in the scene ... */" />
+                <marker date="1567711536770" expanded="true" signature="2330:2538" ph="/* if (Input.GetKey (KeyCode.A)) { //if left arrow is pressed ... */" />
+                <marker date="1567711536770" expanded="true" signature="2571:2714" ph="{...}" />
+                <marker date="1567711536770" expanded="true" signature="2747:2893" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/C# Scripts/shipBehavior.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="245">
+              <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
               <folding>
-                <marker date="1567708566227" expanded="true" signature="6:135" ph="..." />
-                <marker date="1567708566227" expanded="true" signature="178:2921" ph="{...}" />
-                <marker date="1567708566227" expanded="true" signature="246:501" ph="/* public GameObject scoreInGame; //adding game object for score text ... */" />
-                <marker date="1567708566227" expanded="true" signature="652:767" ph="{...}" />
-                <marker date="1567708566227" expanded="true" signature="825:2917" ph="{...}" />
-                <marker date="1567708566227" expanded="true" signature="1048:1296" ph="{...}" />
-                <marker date="1567708566227" expanded="true" signature="1055:1290" ph="/* GameObject bullet = (GameObject)Instantiate (projectilePrefabs, transform.position, Quaternion.identity); //cr ... */" />
-                <marker date="1567708566227" expanded="true" signature="1300:2122" ph="/* for (int i = 0; i &lt; Projectiles.Count; i++) { //loop to see how many projectiles are in the scene ... */" />
-                <marker date="1567708566227" expanded="true" signature="2165:2327" ph="{...}" />
-                <marker date="1567708566227" expanded="true" signature="2370:2542" ph="{...}" />
-                <marker date="1567708566227" expanded="true" signature="2581:2724" ph="{...}" />
-                <marker date="1567708566227" expanded="true" signature="2765:2911" ph="{...}" />
+                <marker date="1567711521676" expanded="true" signature="6:135" ph="..." />
+                <marker date="1567711521676" expanded="true" signature="178:3067" ph="{...}" />
+                <marker date="1567711521676" expanded="true" signature="246:501" ph="/* public GameObject scoreInGame; //adding game object for score text ... */" />
+                <marker date="1567711521676" expanded="true" signature="652:792" ph="{...}" />
+                <marker date="1567711521676" expanded="true" signature="850:2954" ph="{...}" />
+                <marker date="1567711521676" expanded="true" signature="1073:1321" ph="{...}" />
+                <marker date="1567711521676" expanded="true" signature="1080:1315" ph="/* GameObject bullet = (GameObject)Instantiate (projectilePrefabs, transform.position, Quaternion.identity); //cr ... */" />
+                <marker date="1567711521676" expanded="true" signature="1325:2358" ph="/* for (int i = 0; i &lt; Projectiles.Count; i++) { //loop to see how many projectiles are in the scene ... */" />
+                <marker date="1567711521676" expanded="true" signature="2363:2579" ph="/* if (Input.GetKey (KeyCode.LeftArrow)) { //if left arrow is pressed ... */" />
+                <marker date="1567711521676" expanded="true" signature="2618:2761" ph="{...}" />
+                <marker date="1567711521676" expanded="true" signature="2802:2948" ph="{...}" />
+                <marker date="1567711521676" expanded="true" signature="3034:3062" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/C# Scripts/timerBehavior.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+              <folding>
+                <marker date="1567711323356" expanded="true" signature="6:129" ph="..." />
+                <marker date="1567711323356" expanded="true" signature="173:678" ph="{...}" />
+                <marker date="1567711323356" expanded="true" signature="317:400" ph="{...}" />
+                <marker date="1567711323356" expanded="true" signature="458:676" ph="{...}" />
+                <marker date="1567711323356" expanded="true" signature="490:605" ph="{...}" />
+                <marker date="1567711323356" expanded="true" signature="618:670" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -93,13 +116,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/C# Scripts/shipBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/C# Scripts/timerBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/C# Scripts/ship2Behavior.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/C# Scripts/ship2Behavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/C# Scripts/timerBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/C# Scripts/shipBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/C# Scripts/ship2Behavior.cs" />
       </list>
     </option>
   </component>
@@ -110,10 +135,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="75" />
-    <option name="y" value="68" />
+    <option name="x" value="137" />
+    <option name="y" value="180" />
     <option name="width" value="1440" />
-    <option name="height" value="827" />
+    <option name="height" value="826" />
   </component>
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
@@ -191,12 +216,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567546283983</updated>
-      <workItem from="1567546289026" duration="2687000" />
+      <workItem from="1567546289026" duration="5062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2687000" />
+    <option name="totallyTimeSpent" value="5062000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -208,7 +233,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="68" width="1440" height="827" extended-state="0" />
+    <frame x="137" y="180" width="1440" height="826" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -255,44 +280,58 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/C# Scripts/ship2Behavior.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/C# Scripts/timerBehavior.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+        <state relative-caret-position="225">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
-            <marker date="1567708566230" expanded="true" signature="6:135" ph="..." />
-            <marker date="1567708566230" expanded="true" signature="179:2891" ph="{...}" />
-            <marker date="1567708566230" expanded="true" signature="247:502" ph="/* public GameObject scoreInGame; //adding game object for score text ... */" />
-            <marker date="1567708566230" expanded="true" signature="653:768" ph="{...}" />
-            <marker date="1567708566230" expanded="true" signature="826:2887" ph="{...}" />
-            <marker date="1567708566230" expanded="true" signature="1049:1297" ph="{...}" />
-            <marker date="1567708566230" expanded="true" signature="1056:1291" ph="/* GameObject bullet = (GameObject)Instantiate (projectilePrefabs, transform.position, Quaternion.identity); //cr ... */" />
-            <marker date="1567708566230" expanded="true" signature="1301:2123" ph="/* for (int i = 0; i &lt; Projectiles.Count; i++) { //loop to see how many projectiles are in the scene ... */" />
-            <marker date="1567708566230" expanded="true" signature="2157:2319" ph="{...}" />
-            <marker date="1567708566230" expanded="true" signature="2354:2526" ph="{...}" />
-            <marker date="1567708566230" expanded="true" signature="2559:2702" ph="{...}" />
-            <marker date="1567708566230" expanded="true" signature="2735:2881" ph="{...}" />
+            <marker date="1567711323356" expanded="true" signature="6:129" ph="..." />
+            <marker date="1567711323356" expanded="true" signature="173:678" ph="{...}" />
+            <marker date="1567711323356" expanded="true" signature="317:400" ph="{...}" />
+            <marker date="1567711323356" expanded="true" signature="458:676" ph="{...}" />
+            <marker date="1567711323356" expanded="true" signature="490:605" ph="{...}" />
+            <marker date="1567711323356" expanded="true" signature="618:670" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/C# Scripts/shipBehavior.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="245">
+          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
           <folding>
-            <marker date="1567708566227" expanded="true" signature="6:135" ph="..." />
-            <marker date="1567708566227" expanded="true" signature="178:2921" ph="{...}" />
-            <marker date="1567708566227" expanded="true" signature="246:501" ph="/* public GameObject scoreInGame; //adding game object for score text ... */" />
-            <marker date="1567708566227" expanded="true" signature="652:767" ph="{...}" />
-            <marker date="1567708566227" expanded="true" signature="825:2917" ph="{...}" />
-            <marker date="1567708566227" expanded="true" signature="1048:1296" ph="{...}" />
-            <marker date="1567708566227" expanded="true" signature="1055:1290" ph="/* GameObject bullet = (GameObject)Instantiate (projectilePrefabs, transform.position, Quaternion.identity); //cr ... */" />
-            <marker date="1567708566227" expanded="true" signature="1300:2122" ph="/* for (int i = 0; i &lt; Projectiles.Count; i++) { //loop to see how many projectiles are in the scene ... */" />
-            <marker date="1567708566227" expanded="true" signature="2165:2327" ph="{...}" />
-            <marker date="1567708566227" expanded="true" signature="2370:2542" ph="{...}" />
-            <marker date="1567708566227" expanded="true" signature="2581:2724" ph="{...}" />
-            <marker date="1567708566227" expanded="true" signature="2765:2911" ph="{...}" />
+            <marker date="1567711521676" expanded="true" signature="6:135" ph="..." />
+            <marker date="1567711521676" expanded="true" signature="178:3067" ph="{...}" />
+            <marker date="1567711521676" expanded="true" signature="246:501" ph="/* public GameObject scoreInGame; //adding game object for score text ... */" />
+            <marker date="1567711521676" expanded="true" signature="652:792" ph="{...}" />
+            <marker date="1567711521676" expanded="true" signature="850:2954" ph="{...}" />
+            <marker date="1567711521676" expanded="true" signature="1073:1321" ph="{...}" />
+            <marker date="1567711521676" expanded="true" signature="1080:1315" ph="/* GameObject bullet = (GameObject)Instantiate (projectilePrefabs, transform.position, Quaternion.identity); //cr ... */" />
+            <marker date="1567711521676" expanded="true" signature="1325:2358" ph="/* for (int i = 0; i &lt; Projectiles.Count; i++) { //loop to see how many projectiles are in the scene ... */" />
+            <marker date="1567711521676" expanded="true" signature="2363:2579" ph="/* if (Input.GetKey (KeyCode.LeftArrow)) { //if left arrow is pressed ... */" />
+            <marker date="1567711521676" expanded="true" signature="2618:2761" ph="{...}" />
+            <marker date="1567711521676" expanded="true" signature="2802:2948" ph="{...}" />
+            <marker date="1567711521676" expanded="true" signature="3034:3062" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/C# Scripts/ship2Behavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+          <folding>
+            <marker date="1567711536770" expanded="true" signature="6:135" ph="..." />
+            <marker date="1567711536770" expanded="true" signature="179:2903" ph="{...}" />
+            <marker date="1567711536770" expanded="true" signature="247:502" ph="/* public GameObject scoreInGame; //adding game object for score text ... */" />
+            <marker date="1567711536770" expanded="true" signature="653:768" ph="{...}" />
+            <marker date="1567711536770" expanded="true" signature="826:2899" ph="{...}" />
+            <marker date="1567711536770" expanded="true" signature="1049:1297" ph="{...}" />
+            <marker date="1567711536770" expanded="true" signature="1056:1291" ph="/* GameObject bullet = (GameObject)Instantiate (projectilePrefabs, transform.position, Quaternion.identity); //cr ... */" />
+            <marker date="1567711536770" expanded="true" signature="1301:2325" ph="/* for (int i = 0; i &lt; Projectiles.Count; i++) { //loop to see how many projectiles are in the scene ... */" />
+            <marker date="1567711536770" expanded="true" signature="2330:2538" ph="/* if (Input.GetKey (KeyCode.A)) { //if left arrow is pressed ... */" />
+            <marker date="1567711536770" expanded="true" signature="2571:2714" ph="{...}" />
+            <marker date="1567711536770" expanded="true" signature="2747:2893" ph="{...}" />
           </folding>
         </state>
       </provider>

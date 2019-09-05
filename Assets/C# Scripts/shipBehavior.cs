@@ -16,6 +16,7 @@ public class shipBehavior : MonoBehaviour
     {
         projectileVelocity = 6; //stating projectile velocity
         DontDestroyOnLoad (gameObject); 
+	    Debug.Log("howdy");
     }
 
     // Update is called once per frame
@@ -42,15 +43,15 @@ public class shipBehavior : MonoBehaviour
 		//	}
 	//	}
 
-		if (Input.GetKey (KeyCode.RightArrow)) { //if right arrow is pressed
-			this.GetComponent<Transform> ().Translate (new Vector3 (speed, 0));	//spaceship will move right at a speed dictated elsewhere
-		}
+		//if (Input.GetKey (KeyCode.RightArrow)) { //if right arrow is pressed
+		//	this.GetComponent<Transform> ().Translate (new Vector3 (speed, 0));	//spaceship will move right at a speed dictated elsewhere
+		//}
 
 
-		if (Input.GetKey (KeyCode.LeftArrow)) { //if left arrow is pressed
-			this.GetComponent<Transform> ().Translate (new Vector3 (-speed, 0));	//spaceship willl move left at a negative speed dictated elsewhere
+		//if (Input.GetKey (KeyCode.LeftArrow)) { //if left arrow is pressed
+		//	this.GetComponent<Transform> ().Translate (new Vector3 (-speed, 0));	//spaceship willl move left at a negative speed dictated elsewhere
 
-		}
+		//}
 		if (Input.GetKey (KeyCode.UpArrow)) {
 			this.GetComponent<Transform> ().Translate (new Vector3 (0, speed));	//spaceship willl move up at a positive speed dictated elsewhere		
 		}
@@ -58,5 +59,11 @@ public class shipBehavior : MonoBehaviour
 			this.GetComponent<Transform> ().Translate (new Vector3 (0, -speed));	//spaceship willl move down at a negative speed dictated elsewhere		
 		}
     }
+	
+	void OnCollisionEnter2D(Collision2D collision) //when you collide with enemy
+	{
+		Debug.Log("howdy");
+	}
+
 	
 }

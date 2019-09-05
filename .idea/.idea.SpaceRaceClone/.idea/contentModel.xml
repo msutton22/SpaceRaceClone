@@ -7,6 +7,7 @@
         <e p="C# Scripts" t="Include">
           <e p="ship2Behavior.cs" t="Include" />
           <e p="shipBehavior.cs" t="Include" />
+          <e p="timerBehavior.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

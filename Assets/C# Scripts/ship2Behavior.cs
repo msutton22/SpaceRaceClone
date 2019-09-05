@@ -42,15 +42,15 @@ public class ship2Behavior : MonoBehaviour
 		//	}
 	//	}
 
-		if (Input.GetKey (KeyCode.D)) { //if right arrow is pressed
-			this.GetComponent<Transform> ().Translate (new Vector3 (speed, 0));	//spaceship will move right at a speed dictated elsewhere
-		}
+		//if (Input.GetKey (KeyCode.D)) { //if right arrow is pressed
+		//	this.GetComponent<Transform> ().Translate (new Vector3 (speed, 0));	//spaceship will move right at a speed dictated elsewhere
+		//}
 
 
-		if (Input.GetKey (KeyCode.A)) { //if left arrow is pressed
-			this.GetComponent<Transform> ().Translate (new Vector3 (-speed, 0));	//spaceship willl move left at a negative speed dictated elsewhere
+		//if (Input.GetKey (KeyCode.A)) { //if left arrow is pressed
+		//	this.GetComponent<Transform> ().Translate (new Vector3 (-speed, 0));	//spaceship willl move left at a negative speed dictated elsewhere
 
-		}
+		//}
 		if (Input.GetKey (KeyCode.W)) {
 			this.GetComponent<Transform> ().Translate (new Vector3 (0, speed));	//spaceship willl move up at a positive speed dictated elsewhere		
 		}
