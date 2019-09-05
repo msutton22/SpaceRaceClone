@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class shipBehavior : MonoBehaviour
 {
     public float speed; //variable for speed of the spaceship
+	public float score = 0; //score holder
+	public GameObject scoreInGame;
    // public GameObject scoreInGame; //adding game object for score text
     //public GameObject projectilePrefabs; //Adding Prefab of projectiles
  //   private List <GameObject> Projectiles = new List<GameObject> ();  //creating a list of projectile objects
@@ -16,13 +18,11 @@ public class shipBehavior : MonoBehaviour
     {
         projectileVelocity = 6; //stating projectile velocity
         DontDestroyOnLoad (gameObject); 
-	    Debug.Log("howdy");
     }
 
     // Update is called once per frame
     void Update()
     {
-
 		//scoreInGame.gameObject.GetComponent<Text>().text = ("Score: " + (int)score); //checking score every frame and printing in textbox what it is
 		if (Input.GetKeyDown (KeyCode.Space))  //if the spacebar is pressed 
 		{
@@ -62,7 +62,11 @@ public class shipBehavior : MonoBehaviour
 	
 	void OnCollisionEnter2D(Collision2D collision) //when you collide with enemy
 	{
-		Debug.Log("howdy");
+		if (collision.gameObject.tag.Equals ("wall")) {
+			score += 1;
+			scoreInGame.gameObject.GetComponent<Text>().text = ("" + (int)score);
+			Destroy (gameObject);
+		}
 	}
 
 	
