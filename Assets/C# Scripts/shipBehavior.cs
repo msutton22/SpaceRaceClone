@@ -65,7 +65,7 @@ public class shipBehavior : MonoBehaviour
 		if (collision.gameObject.tag.Equals ("wall")) {
 			score += 1;
 			scoreInGame.gameObject.GetComponent<Text>().text = ("" + (int)score);
-			Destroy (gameObject);
+			gameObject.transform.position = new Vector3(4.34f, -4.2f, 0);
 		}
 	}
 

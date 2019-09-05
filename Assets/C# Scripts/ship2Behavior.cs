@@ -8,6 +8,7 @@ public class ship2Behavior : MonoBehaviour
 {
     public float speed; //variable for speed of the spaceship
 	public float score = 0; //score holder
+	private int idleTimer = 0;
 	public GameObject scoreInGame; //adding game object for score text
    // public GameObject scoreInGame; //adding game object for score text
     //public GameObject projectilePrefabs; //Adding Prefab of projectiles
@@ -65,7 +66,7 @@ public class ship2Behavior : MonoBehaviour
 		if (collision.gameObject.tag.Equals ("wall")) {
 			score += 1;
 			scoreInGame.gameObject.GetComponent<Text>().text = ("" + (int)score);
-			Destroy (gameObject);
+			gameObject.transform.position = new Vector3(-4.34f, -4.2f, 0);
 		}
 	}
 	
