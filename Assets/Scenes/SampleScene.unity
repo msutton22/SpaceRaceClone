@@ -952,7 +952,7 @@ GameObject:
   - component: {fileID: 732737748}
   - component: {fileID: 732737751}
   - component: {fileID: 732737752}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spaceship
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1308,7 +1308,7 @@ GameObject:
   - component: {fileID: 949386973}
   - component: {fileID: 949386976}
   - component: {fileID: 949386977}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spaceship2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1756,7 +1756,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff78c791304204710a324f511ade6d87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxTimer: 115
+  maxTimer: 110
 --- !u!114 &1721800077
 MonoBehaviour:
   m_ObjectHideFlags: 0

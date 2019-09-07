@@ -19,16 +19,6 @@ public class Enemy : MonoBehaviour
 	void Update()
 	{
 
-		//if (xMoveDirection > 0)
-		//{
-			//checking if direction is bigger than 0
-		//	xMoveDirection = -1; //if so, will turn the opposite directions
-		//}
-		//else
-		//{
-		//	xMoveDirection = 1; //else moving forward
-		//}
-
 		gameObject.GetComponent<Rigidbody2D>().velocity =
 			new Vector2(xMoveDirection, 0) * speed; //game object velocity moving
 
@@ -44,8 +34,5 @@ public class Enemy : MonoBehaviour
 		{
 			Destroy(gameObject);
 		}
-		//if (collision.gameObject.tag.Equals ("enemy")) {
-		//	Destroy (collision.gameObject); //get rid of that bullet
-		//}
 	}
 }

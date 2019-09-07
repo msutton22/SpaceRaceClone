@@ -9,7 +9,6 @@ public class shipBehavior : MonoBehaviour
     public float speed; //variable for speed of the spaceship
 	public float score = 0; //score holder
 	public GameObject scoreInGame;
-   // public GameObject scoreInGame; //adding game object for score text
     //public GameObject projectilePrefabs; //Adding Prefab of projectiles
  //   private List <GameObject> Projectiles = new List<GameObject> ();  //creating a list of projectile objects
     private float projectileVelocity; //variable for velocity of the projectiles
@@ -17,13 +16,11 @@ public class shipBehavior : MonoBehaviour
     void Start()
     {
         projectileVelocity = 6; //stating projectile velocity
-        DontDestroyOnLoad (gameObject); 
     }
 
     // Update is called once per frame
     void Update()
     {
-		//scoreInGame.gameObject.GetComponent<Text>().text = ("Score: " + (int)score); //checking score every frame and printing in textbox what it is
 		if (Input.GetKeyDown (KeyCode.Space))  //if the spacebar is pressed 
 		{
 		//	GameObject bullet = (GameObject)Instantiate (projectilePrefabs, transform.position, Quaternion.identity); //create a projectile object in the current position

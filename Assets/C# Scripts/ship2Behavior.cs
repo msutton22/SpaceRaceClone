@@ -10,7 +10,6 @@ public class ship2Behavior : MonoBehaviour
 	public float score = 0; //score holder
 	private int idleTimer = 0;
 	public GameObject scoreInGame; //adding game object for score text
-   // public GameObject scoreInGame; //adding game object for score text
     //public GameObject projectilePrefabs; //Adding Prefab of projectiles
  //   private List <GameObject> Projectiles = new List<GameObject> ();  //creating a list of projectile objects
     private float projectileVelocity; //variable for velocity of the projectiles
@@ -18,13 +17,11 @@ public class ship2Behavior : MonoBehaviour
     void Start()
     {
         projectileVelocity = 6; //stating projectile velocity
-        DontDestroyOnLoad (gameObject); 
     }
 
     // Update is called once per frame
     void Update()
     {
-		//scoreInGame.gameObject.GetComponent<Text>().text = ("Score: " + (int)score); //checking score every frame and printing in textbox what it is
 		if (Input.GetKeyDown (KeyCode.Space))  //if the spacebar is pressed 
 		{
 		//	GameObject bullet = (GameObject)Instantiate (projectilePrefabs, transform.position, Quaternion.identity); //create a projectile object in the current position
@@ -68,10 +65,10 @@ public class ship2Behavior : MonoBehaviour
 			scoreInGame.gameObject.GetComponent<Text>().text = ("" + (int)score);
 			gameObject.transform.position = new Vector3(-4.34f, -4.2f, 0);
 		}
-		//if (collision.gameObject.tag.Equals ("enemy")) {
-		//	Destroy (collision.gameObject); //get rid of that bullet
-		//	gameObject.transform.position = new Vector3(-4.34f, -4.2f, 0);
-		//}
+		if (collision.gameObject.tag.Equals ("enemy")) {
+			Destroy (collision.gameObject); //get rid of that bullet
+			gameObject.transform.position = new Vector3(-4.34f, -4.2f, 0);
+		}
 	}
 
 }
