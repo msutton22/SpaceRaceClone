@@ -20,7 +20,6 @@ public class timerBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(timeLeft);
         if (timeLeft > 0)
         {
             timeLeft -= Time.deltaTime;
