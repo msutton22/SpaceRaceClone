@@ -68,6 +68,10 @@ public class ship2Behavior : MonoBehaviour
 			scoreInGame.gameObject.GetComponent<Text>().text = ("" + (int)score);
 			gameObject.transform.position = new Vector3(-4.34f, -4.2f, 0);
 		}
+		if (collision.gameObject.tag.Equals ("enemy")) {
+			Destroy (collision.gameObject); //get rid of that bullet
+			gameObject.transform.position = new Vector3(-4.34f, -4.2f, 0);
+		}
 	}
 	
 }

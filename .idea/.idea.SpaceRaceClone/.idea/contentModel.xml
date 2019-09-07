@@ -5,6 +5,8 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="C# Scripts" t="Include">
+          <e p="Enemy.cs" t="Include" />
+          <e p="enemySpawner.cs" t="Include" />
           <e p="ship2Behavior.cs" t="Include" />
           <e p="shipBehavior.cs" t="Include" />
           <e p="timerBehavior.cs" t="Include" />
