@@ -37,4 +37,15 @@ public class Enemy : MonoBehaviour
 			nextSpawn = Time.time + spawnRate; // The time it takes for a new enemy to spawn
 		}
 	}
+	
+	void OnCollisionEnter2D(Collision2D collision) //when you collide with enemy
+	{
+		if (collision.gameObject.tag.Equals ("wall"))
+		{
+			Destroy(gameObject);
+		}
+		//if (collision.gameObject.tag.Equals ("enemy")) {
+		//	Destroy (collision.gameObject); //get rid of that bullet
+		//}
+	}
 }

@@ -25,7 +25,7 @@ public class enemySpawner : MonoBehaviour
         if (Time.time > nextSpawn) { //checking if new enemy should be spawned
             nextSpawn = Time.time + spawnRate; // The time it takes for a new enemy to spawn
            // randX = Random.Range (-8.4f, 8.4f); //finding a random x value in a range
-            randY = Random.Range (4.5f, -2.5f); //finding a random y value in a range
+            randY = Random.Range (4.5f, -2.8f); //finding a random y value in a range
             whereToSpawn = new Vector2 (randX, randY); //will spawn enemy in random range number coordinates
             Instantiate (enemy, whereToSpawn, Quaternion.identity); //Enemy will be on the screen from prefab
         }

@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f6fcb1b-365f-4bb0-be55-91b21c6e24a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceRaceClone/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceRaceClone/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceRaceClone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceRaceClone/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/C# Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/C# Scripts/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/C# Scripts/enemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/C# Scripts/enemySpawner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/C# Scripts/ship2Behavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/C# Scripts/ship2Behavior.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/C# Scripts/shipBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/C# Scripts/shipBehavior.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/projectiles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/projectiles.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/projectiles2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/projectiles2.prefab" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,12 +26,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="886" />
+          <entry key="cs" value="1088" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="886" />
+          <entry key="C#" value="1088" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -46,26 +48,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/C# Scripts/ship2Behavior.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="73" column="9" selection-start-line="70" selection-start-column="8" selection-end-line="73" selection-end-column="9" />
+            <state relative-caret-position="490">
+              <caret line="83" column="30" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
               <folding>
-                <marker date="1567717553891" expanded="true" signature="6:135" ph="..." />
-                <marker date="1567717553891" expanded="true" signature="179:3513" ph="{...}" />
-                <marker date="1567717553891" expanded="true" signature="383:638" ph="/* public GameObject scoreInGame; //adding game object for score text ... */" />
-                <marker date="1567717553891" expanded="true" signature="789:904" ph="{...}" />
-                <marker date="1567717553891" expanded="true" signature="962:3034" ph="{...}" />
-                <marker date="1567717553891" expanded="true" signature="1184:1432" ph="{...}" />
-                <marker date="1567717553891" expanded="true" signature="1191:1426" ph="/* GameObject bullet = (GameObject)Instantiate (projectilePrefabs, transform.position, Quaternion.identity); //cr ... */" />
-                <marker date="1567717553891" expanded="true" signature="1436:2460" ph="/* for (int i = 0; i &lt; Projectiles.Count; i++) { //loop to see how many projectiles are in the scene ... */" />
-                <marker date="1567717553891" expanded="true" signature="2465:2673" ph="/* if (Input.GetKey (KeyCode.A)) { //if left arrow is pressed ... */" />
-                <marker date="1567717553891" expanded="true" signature="2706:2849" ph="{...}" />
-                <marker date="1567717553891" expanded="true" signature="2882:3028" ph="{...}" />
-                <marker date="1567717553891" expanded="true" signature="3114:3509" ph="{...}" />
-                <marker date="1567717553891" expanded="true" signature="3166:3325" ph="{...}" />
-                <marker date="1567717553891" expanded="true" signature="3375:3506" ph="{...}" />
+                <marker date="1567832471406" expanded="true" signature="6:135" ph="..." />
+                <marker date="1567832471406" expanded="true" signature="179:3780" ph="{...}" />
+                <marker date="1567832471406" expanded="true" signature="383:638" ph="/* public GameObject scoreInGame; //adding game object for score text ... */" />
+                <marker date="1567832471406" expanded="true" signature="789:904" ph="{...}" />
+                <marker date="1567832471406" expanded="true" signature="962:3034" ph="{...}" />
+                <marker date="1567832471406" expanded="true" signature="1184:1432" ph="{...}" />
+                <marker date="1567832471406" expanded="true" signature="1191:1426" ph="/* GameObject bullet = (GameObject)Instantiate (projectilePrefabs, transform.position, Quaternion.identity); //cr ... */" />
+                <marker date="1567832471406" expanded="true" signature="1436:2460" ph="/* for (int i = 0; i &lt; Projectiles.Count; i++) { //loop to see how many projectiles are in the scene ... */" />
+                <marker date="1567832471406" expanded="true" signature="2465:2673" ph="/* if (Input.GetKey (KeyCode.A)) { //if left arrow is pressed ... */" />
+                <marker date="1567832471406" expanded="true" signature="2706:2849" ph="{...}" />
+                <marker date="1567832471406" expanded="true" signature="2882:3028" ph="{...}" />
+                <marker date="1567832471406" expanded="true" signature="3114:3517" ph="{...}" />
+                <marker date="1567832471406" expanded="true" signature="3166:3325" ph="{...}" />
+                <marker date="1567832471406" expanded="true" signature="3328:3514" ph="/* if (collision.gameObject.tag.Equals (&quot;enemy&quot;)) { ... */" />
+                <marker date="1567832471406" expanded="true" signature="3555:3777" ph="{...}" />
+                <marker date="1567832471406" expanded="true" signature="3561:3749" ph="/* if (collision.gameObject.tag.Equals(&quot;enemy&quot;)) ... */" />
               </folding>
             </state>
           </provider>
@@ -74,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/C# Scripts/shipBehavior.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="71" column="56" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
+            <state relative-caret-position="340">
+              <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
               <folding>
                 <marker date="1567717579271" expanded="true" signature="6:135" ph="..." />
                 <marker date="1567717579271" expanded="true" signature="178:3478" ph="{...}" />
@@ -99,31 +103,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/C# Scripts/Enemy.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+            <state relative-caret-position="505">
+              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
               <folding>
-                <marker date="1567717117816" expanded="false" signature="6:78" ph="..." />
-                <marker date="1567717117816" expanded="true" signature="114:913" ph="{...}" />
-                <marker date="1567717117816" expanded="true" signature="377:383" ph="{...}" />
-                <marker date="1567717117816" expanded="true" signature="435:911" ph="{...}" />
-                <marker date="1567717117816" expanded="true" signature="442:660" ph="/* if (xMoveDirection &gt; 0) ... */" />
-                <marker date="1567717117816" expanded="true" signature="816:908" ph="{...}" />
+                <marker date="1567832141634" expanded="true" signature="6:78" ph="..." />
+                <marker date="1567832141634" expanded="true" signature="114:1200" ph="{...}" />
+                <marker date="1567832141634" expanded="true" signature="377:383" ph="{...}" />
+                <marker date="1567832141634" expanded="true" signature="435:911" ph="{...}" />
+                <marker date="1567832141634" expanded="true" signature="442:660" ph="/* if (xMoveDirection &gt; 0) ... */" />
+                <marker date="1567832141634" expanded="true" signature="816:908" ph="{...}" />
+                <marker date="1567832141634" expanded="true" signature="991:1198" ph="{...}" />
+                <marker date="1567832141634" expanded="true" signature="1042:1074" ph="{...}" />
+                <marker date="1567832141634" expanded="true" signature="1077:1195" ph="/* if (collision.gameObject.tag.Equals (&quot;enemy&quot;)) { ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/C# Scripts/enemySpawner.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="375">
+              <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
               <folding>
-                <marker date="1567830223754" expanded="false" signature="6:78" ph="..." />
-                <marker date="1567830223754" expanded="true" signature="121:1218" ph="{...}" />
-                <marker date="1567830223754" expanded="true" signature="544:554" ph="{...}" />
-                <marker date="1567830223754" expanded="true" signature="614:1216" ph="{...}" />
-                <marker date="1567830223754" expanded="true" signature="675:1210" ph="{...}" />
+                <marker date="1567831294637" expanded="false" signature="6:78" ph="..." />
+                <marker date="1567831294637" expanded="true" signature="121:1222" ph="{...}" />
+                <marker date="1567831294637" expanded="true" signature="544:554" ph="{...}" />
+                <marker date="1567831294637" expanded="true" signature="614:1220" ph="{...}" />
+                <marker date="1567831294637" expanded="true" signature="675:1214" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -162,10 +169,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/C# Scripts/timerBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/C# Scripts/Enemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/C# Scripts/ship2Behavior.cs" />
         <option value="$PROJECT_DIR$/Assets/C# Scripts/shipBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/C# Scripts/enemySpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/C# Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/C# Scripts/ship2Behavior.cs" />
       </list>
     </option>
   </component>
@@ -257,12 +264,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567546283983</updated>
-      <workItem from="1567546289026" duration="12398000" />
+      <workItem from="1567546289026" duration="14514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12398000" />
+    <option name="totallyTimeSpent" value="14514000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -321,33 +328,57 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/C# Scripts/ship2Behavior.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/C# Scripts/timerBehavior.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="73" column="9" selection-start-line="70" selection-start-column="8" selection-end-line="73" selection-end-column="9" />
+        <state relative-caret-position="225">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
-            <marker date="1567717553891" expanded="true" signature="6:135" ph="..." />
-            <marker date="1567717553891" expanded="true" signature="179:3513" ph="{...}" />
-            <marker date="1567717553891" expanded="true" signature="383:638" ph="/* public GameObject scoreInGame; //adding game object for score text ... */" />
-            <marker date="1567717553891" expanded="true" signature="789:904" ph="{...}" />
-            <marker date="1567717553891" expanded="true" signature="962:3034" ph="{...}" />
-            <marker date="1567717553891" expanded="true" signature="1184:1432" ph="{...}" />
-            <marker date="1567717553891" expanded="true" signature="1191:1426" ph="/* GameObject bullet = (GameObject)Instantiate (projectilePrefabs, transform.position, Quaternion.identity); //cr ... */" />
-            <marker date="1567717553891" expanded="true" signature="1436:2460" ph="/* for (int i = 0; i &lt; Projectiles.Count; i++) { //loop to see how many projectiles are in the scene ... */" />
-            <marker date="1567717553891" expanded="true" signature="2465:2673" ph="/* if (Input.GetKey (KeyCode.A)) { //if left arrow is pressed ... */" />
-            <marker date="1567717553891" expanded="true" signature="2706:2849" ph="{...}" />
-            <marker date="1567717553891" expanded="true" signature="2882:3028" ph="{...}" />
-            <marker date="1567717553891" expanded="true" signature="3114:3509" ph="{...}" />
-            <marker date="1567717553891" expanded="true" signature="3166:3325" ph="{...}" />
-            <marker date="1567717553891" expanded="true" signature="3375:3506" ph="{...}" />
+            <marker date="1567711323356" expanded="true" signature="6:129" ph="..." />
+            <marker date="1567711323356" expanded="true" signature="173:678" ph="{...}" />
+            <marker date="1567711323356" expanded="true" signature="317:400" ph="{...}" />
+            <marker date="1567711323356" expanded="true" signature="458:676" ph="{...}" />
+            <marker date="1567711323356" expanded="true" signature="490:605" ph="{...}" />
+            <marker date="1567711323356" expanded="true" signature="618:670" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/C# Scripts/enemySpawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+          <folding>
+            <marker date="1567831294637" expanded="false" signature="6:78" ph="..." />
+            <marker date="1567831294637" expanded="true" signature="121:1222" ph="{...}" />
+            <marker date="1567831294637" expanded="true" signature="544:554" ph="{...}" />
+            <marker date="1567831294637" expanded="true" signature="614:1220" ph="{...}" />
+            <marker date="1567831294637" expanded="true" signature="675:1214" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/C# Scripts/Enemy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <marker date="1567832141634" expanded="true" signature="6:78" ph="..." />
+            <marker date="1567832141634" expanded="true" signature="114:1200" ph="{...}" />
+            <marker date="1567832141634" expanded="true" signature="377:383" ph="{...}" />
+            <marker date="1567832141634" expanded="true" signature="435:911" ph="{...}" />
+            <marker date="1567832141634" expanded="true" signature="442:660" ph="/* if (xMoveDirection &gt; 0) ... */" />
+            <marker date="1567832141634" expanded="true" signature="816:908" ph="{...}" />
+            <marker date="1567832141634" expanded="true" signature="991:1198" ph="{...}" />
+            <marker date="1567832141634" expanded="true" signature="1042:1074" ph="{...}" />
+            <marker date="1567832141634" expanded="true" signature="1077:1195" ph="/* if (collision.gameObject.tag.Equals (&quot;enemy&quot;)) { ... */" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/C# Scripts/shipBehavior.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="71" column="56" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
+        <state relative-caret-position="340">
+          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
           <folding>
             <marker date="1567717579271" expanded="true" signature="6:135" ph="..." />
             <marker date="1567717579271" expanded="true" signature="178:3478" ph="{...}" />
@@ -367,46 +398,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/C# Scripts/timerBehavior.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/C# Scripts/ship2Behavior.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="490">
+          <caret line="83" column="30" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
           <folding>
-            <marker date="1567711323356" expanded="true" signature="6:129" ph="..." />
-            <marker date="1567711323356" expanded="true" signature="173:678" ph="{...}" />
-            <marker date="1567711323356" expanded="true" signature="317:400" ph="{...}" />
-            <marker date="1567711323356" expanded="true" signature="458:676" ph="{...}" />
-            <marker date="1567711323356" expanded="true" signature="490:605" ph="{...}" />
-            <marker date="1567711323356" expanded="true" signature="618:670" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/C# Scripts/Enemy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-          <folding>
-            <marker date="1567717117816" expanded="false" signature="6:78" ph="..." />
-            <marker date="1567717117816" expanded="true" signature="114:913" ph="{...}" />
-            <marker date="1567717117816" expanded="true" signature="377:383" ph="{...}" />
-            <marker date="1567717117816" expanded="true" signature="435:911" ph="{...}" />
-            <marker date="1567717117816" expanded="true" signature="442:660" ph="/* if (xMoveDirection &gt; 0) ... */" />
-            <marker date="1567717117816" expanded="true" signature="816:908" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/C# Scripts/enemySpawner.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <marker date="1567830223754" expanded="false" signature="6:78" ph="..." />
-            <marker date="1567830223754" expanded="true" signature="121:1218" ph="{...}" />
-            <marker date="1567830223754" expanded="true" signature="544:554" ph="{...}" />
-            <marker date="1567830223754" expanded="true" signature="614:1216" ph="{...}" />
-            <marker date="1567830223754" expanded="true" signature="675:1210" ph="{...}" />
+            <marker date="1567832471406" expanded="true" signature="6:135" ph="..." />
+            <marker date="1567832471406" expanded="true" signature="179:3780" ph="{...}" />
+            <marker date="1567832471406" expanded="true" signature="383:638" ph="/* public GameObject scoreInGame; //adding game object for score text ... */" />
+            <marker date="1567832471406" expanded="true" signature="789:904" ph="{...}" />
+            <marker date="1567832471406" expanded="true" signature="962:3034" ph="{...}" />
+            <marker date="1567832471406" expanded="true" signature="1184:1432" ph="{...}" />
+            <marker date="1567832471406" expanded="true" signature="1191:1426" ph="/* GameObject bullet = (GameObject)Instantiate (projectilePrefabs, transform.position, Quaternion.identity); //cr ... */" />
+            <marker date="1567832471406" expanded="true" signature="1436:2460" ph="/* for (int i = 0; i &lt; Projectiles.Count; i++) { //loop to see how many projectiles are in the scene ... */" />
+            <marker date="1567832471406" expanded="true" signature="2465:2673" ph="/* if (Input.GetKey (KeyCode.A)) { //if left arrow is pressed ... */" />
+            <marker date="1567832471406" expanded="true" signature="2706:2849" ph="{...}" />
+            <marker date="1567832471406" expanded="true" signature="2882:3028" ph="{...}" />
+            <marker date="1567832471406" expanded="true" signature="3114:3517" ph="{...}" />
+            <marker date="1567832471406" expanded="true" signature="3166:3325" ph="{...}" />
+            <marker date="1567832471406" expanded="true" signature="3328:3514" ph="/* if (collision.gameObject.tag.Equals (&quot;enemy&quot;)) { ... */" />
+            <marker date="1567832471406" expanded="true" signature="3555:3777" ph="{...}" />
+            <marker date="1567832471406" expanded="true" signature="3561:3749" ph="/* if (collision.gameObject.tag.Equals(&quot;enemy&quot;)) ... */" />
           </folding>
         </state>
       </provider>
