@@ -537,7 +537,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -90, y: -148}
+  m_AnchoredPosition: {x: -95, y: -257}
   m_SizeDelta: {x: 265.35, y: 159.07}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &196133669
@@ -789,6 +789,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -804,6 +805,18 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c8d214e81ac9467ba4f480f8667d182, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -894,7 +907,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 90, y: -148}
+  m_AnchoredPosition: {x: 85, y: -257}
   m_SizeDelta: {x: 265.35, y: 160.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &562975521
@@ -974,6 +987,8 @@ MonoBehaviour:
   speed: 0.05
   score: 0
   scoreInGame: {fileID: 196133667}
+  projectilePrefabs: {fileID: 8797980953038066119, guid: 593491436fb984204b8b4034f956f0dd,
+    type: 3}
 --- !u!212 &732737749
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1049,7 +1064,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.1348052, y: -1.2968931}
+  m_Offset: {x: 0.8055401, y: -1.1322699}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1060,7 +1075,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 13.503629, y: 15.816038}
+  m_Size: {x: 9.552536, y: 13.511248}
   m_EdgeRadius: 0
 --- !u!50 &732737752
 Rigidbody2D:
@@ -1330,6 +1345,8 @@ MonoBehaviour:
   speed: 0.05
   score: 0
   scoreInGame: {fileID: 562975519}
+  projectilePrefabs: {fileID: 8797980953038066119, guid: 593491436fb984204b8b4034f956f0dd,
+    type: 3}
 --- !u!212 &949386974
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1405,7 +1422,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.0513, y: -0.88959455}
+  m_Offset: {x: 0.88666916, y: -1.2188511}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1416,7 +1433,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 13.369284, y: 14.722962}
+  m_Size: {x: 8.430443, y: 14.064449}
   m_EdgeRadius: 0
 --- !u!50 &949386977
 Rigidbody2D:
@@ -1741,8 +1758,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 420}
+  m_AnchoredPosition: {x: 0, y: -6.1}
+  m_SizeDelta: {x: 200, y: 714}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1721800076
 MonoBehaviour:

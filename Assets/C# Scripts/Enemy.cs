@@ -34,5 +34,11 @@ public class Enemy : MonoBehaviour
 		{
 			Destroy(gameObject);
 		}
+		
+		if (collision.gameObject.tag.Equals ("bullet")) { //if the enemy collides with a bullet
+			Destroy (collision.gameObject ); //get rid of that bullet
+			Destroy(gameObject); //destroy enemy	
+
+		}
 	}
-}
+	}

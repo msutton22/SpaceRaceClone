@@ -8,6 +8,7 @@
           <e p="Enemy.cs" t="Include" />
           <e p="enemySpawner.cs" t="Include" />
           <e p="playAgain.cs" t="Include" />
+          <e p="shakeBehavior.cs" t="Include" />
           <e p="ship2Behavior.cs" t="Include" />
           <e p="shipBehavior.cs" t="Include" />
           <e p="timerBehavior.cs" t="Include" />
