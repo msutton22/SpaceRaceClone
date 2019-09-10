@@ -15,9 +15,13 @@ public class ship2Behavior : MonoBehaviour
 	private List <GameObject> Projectiles2 = new List<GameObject> ();  //creating a list of projectile objects
     private List <GameObject> Projectiles = new List<GameObject> ();  //creating a list of projectile objects
     private float projectileVelocity; //variable for velocity of the projectiles
+	public AudioSource Shoot; //audio source variable
+	
     // Start is called before the first frame update
     void Start()
     {
+	    AudioSource[] audios = GetComponents<AudioSource> (); //making an array of audio sources 
+	    Shoot = audios [0];
         projectileVelocity = 6; //stating projectile velocity
     }
 
@@ -28,6 +32,7 @@ public class ship2Behavior : MonoBehaviour
 		{
 			GameObject bullet = (GameObject)Instantiate (projectilePrefabs, transform.position, Quaternion.identity); //create a projectile object in the current position
 			Projectiles.Add (bullet); //add actual projectial or bullet to scene
+			Shoot.Play(); //play shooting sound
 	
 		}
 	    
@@ -35,6 +40,7 @@ public class ship2Behavior : MonoBehaviour
 	    {
 		    GameObject bullet2 = (GameObject)Instantiate (projectile2Prefabs, transform.position, Quaternion.identity); //create a projectile object in the current position
 		    Projectiles2.Add(bullet2);
+		    Shoot.Play(); //play shooting sound
 	    }
 
 		for (int i = 0; i < Projectiles.Count; i++) { //loop to see how many projectiles are in the scene
@@ -84,6 +90,11 @@ public class ship2Behavior : MonoBehaviour
 			Destroy (collision.gameObject); //get rid of that bullet
 			Camera.main.GetComponent<shakeBehavior>().TriggerShake();
 			gameObject.transform.position = new Vector3(-4.34f, -4.2f, 0);
+			if (score != 0)
+			{
+				score -= 1;
+				scoreInGame.gameObject.GetComponent<Text>().text = ("" + (int)score);
+			}
 		}
 	}
 

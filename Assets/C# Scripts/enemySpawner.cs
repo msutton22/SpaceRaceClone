@@ -12,9 +12,6 @@ public class enemySpawner : MonoBehaviour
     float nextSpawn = 0.0f;  //keeping track of time to next enemy
     private float gametimer = 110f;
 
-
-
-
     // Use this for initialization
     void Start ()
     {
@@ -25,7 +22,6 @@ public class enemySpawner : MonoBehaviour
     void Update () {
 		
         gametimer -= Time.deltaTime;
-        Debug.Log(enemy.GetComponent<Enemy>().speed);
 
         if (gametimer <= 55f)
         {
