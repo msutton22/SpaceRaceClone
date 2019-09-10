@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -13,7 +14,8 @@ public class shipBehavior : MonoBehaviour
 	public GameObject projectile2Prefabs; //Adding Prefab of projectiles
     private List <GameObject> Projectiles = new List<GameObject> ();  //creating a list of projectile objects
 	private List <GameObject> Projectiles2 = new List<GameObject> ();  //creating a list of projectile objects
-    private float projectileVelocity; //variable for velocity of the projectiles
+    private float projectileVelocity; //variable for velocity of the projectiles	
+	
     // Start is called before the first frame update
     void Start()
     {
