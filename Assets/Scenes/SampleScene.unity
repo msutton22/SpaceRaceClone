@@ -688,9 +688,9 @@ GameObject:
   - component: {fileID: 430422531}
   - component: {fileID: 430422530}
   - component: {fileID: 430422529}
+  - component: {fileID: 430422532}
   - component: {fileID: 430422528}
   - component: {fileID: 430422527}
-  - component: {fileID: 430422532}
   m_Layer: 12
   m_Name: Spaceship1
   m_TagString: Untagged
@@ -764,6 +764,7 @@ MonoBehaviour:
     type: 3}
   projectile2Prefabs: {fileID: 3985881766684592029, guid: dedfb3a0f0c70408db9adef6ebbc836b,
     type: 3}
+  Shoot: {fileID: 430422532}
 --- !u!212 &430422530
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -836,7 +837,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4bc1e2c4c18f74996aaffa97e3366f66, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 39386e978812b49c18d1c325a1f48e0e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1668,7 +1669,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4bc1e2c4c18f74996aaffa97e3366f66, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 39386e978812b49c18d1c325a1f48e0e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
